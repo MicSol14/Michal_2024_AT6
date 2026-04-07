@@ -8,7 +8,7 @@ st.set_page_config(
     layout="wide"
 )
 
-FILE_PATH = "task2_co2/EDGARv7.0_FT2021_fossil_CO2_booklet_2022.xlsx"
+FILE_PATH = "EDGARv7.0_FT2021_fossil_CO2_booklet_2022.xlsx"
 
 # Helpers
 def get_year_columns(df: pd.DataFrame) -> list[int]:
